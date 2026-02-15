@@ -1,6 +1,6 @@
 export default function BinarySearch(arr:number[],target:number):boolean{
     let left = 0
-    let right = arr.length - 1
+    let right = arr.length
     
     do{
         let mid = Math.floor(left + (right - left) / 2)
@@ -17,6 +17,6 @@ export default function BinarySearch(arr:number[],target:number):boolean{
         else{
             left = mid + 1
         }
-    }while(left <= right)
+    }while(left < right)
     return false
 }
