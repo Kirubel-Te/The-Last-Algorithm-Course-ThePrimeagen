@@ -3,6 +3,7 @@ import binarySearch from "./BinarySearch";
 import BinarySearchIndex from "./BinarySearchIndex";
 import { mySqrt } from "./BinarySqrt";
 import twoCrystalBalls from "./Two_crystal_balls";
+import BubbleSort from "./BubbleSort";
 
 // const arr = [1, 2, 3, 4, 5];
 // console.log(linearSearch(arr, 3));
@@ -23,3 +24,7 @@ console.log(twoCrystalBalls([false, false, false, true, true]))
 console.log(twoCrystalBalls([false, false, false, false, false]))
 console.log(twoCrystalBalls([true, true, true, true, true]))
 console.log(twoCrystalBalls([false, true]))
+
+let arr : number[] = [5, 2, 9, 1, 5, 6];
+BubbleSort(arr);
+console.log(arr);
