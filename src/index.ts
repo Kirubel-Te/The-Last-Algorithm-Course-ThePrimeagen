@@ -31,6 +31,7 @@ import LinkedList from "./LinkedList";
 // console.log(arr);
 
 const List = new LinkedList<number>();
+const myList = new LinkedList<number>()
 List.append(10)
 List.append(40)
 List.append(200)
@@ -39,3 +40,11 @@ List.addOnIndex(34,2)
 List.delete(40)
 List.deleteOnIndex(1)
 List.printList()
+
+myList.append(7)
+myList.prepend(7)
+myList.append(7)
+myList.append(7)
+
+myList.delete(7)
+myList.printList()

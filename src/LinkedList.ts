@@ -53,20 +53,19 @@ export default class LinkedList<T>{
     delete(value: T): void{
         if(!this.head) return
 
-        if(this.head.value === value){
+        while(this.head && this.head.value === value){
             this.head = this.head.next
             this.size--;
-            return
         }
+
         let current = this.head
-        while(current.next){
+        while(current && current.next){
             if(current.next.value === value){
                 current.next = current.next.next
                 this.size--;
-                return
+            }else{
+                current = current.next
             }
-            current = current.next
-
         }
     }
 
