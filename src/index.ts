@@ -5,6 +5,7 @@ import { mySqrt } from "./BinarySqrt";
 import twoCrystalBalls from "./Two_crystal_balls";
 import BubbleSort from "./BubbleSort";
 import LinkedList from "./LinkedList";
+import deleteDuplicates from "./RemoveDuplicates";
 
 // const arr = [1, 2, 3, 4, 5];
 // console.log(linearSearch(arr, 3));
@@ -48,3 +49,4 @@ myList.append(7)
 
 myList.delete(7)
 myList.printList()
+
