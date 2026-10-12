@@ -9,7 +9,6 @@ A small TypeScript project for practicing core data structures and algorithms fr
 - Math/problem-solving examples (Binary Square Root, Two Crystal Balls)
 - Data structures (Linked List, Linked Node)
 
-All source files are in `src/`.
 
 ## Run locally
 
